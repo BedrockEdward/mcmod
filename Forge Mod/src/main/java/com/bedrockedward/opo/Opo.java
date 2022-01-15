@@ -1,5 +1,6 @@
 package com.bedrockedward.opo;
 
+import com.bedrockedward.opo.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -29,6 +30,8 @@ public class Opo
 
     public Opo() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(eventBus);
 
         eventBus.addListener(this::setup);
 
