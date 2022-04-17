@@ -1,9 +1,14 @@
 {
-  "item.opo.rainbow_ingod": "rainbooooooooooooooow_ingod",
-  "item.opo.rainbow_sword": "rainbow_sword",
-  "item.opo.rainboow_sword": "rainboow_sword",
-  "item.opo.rainbow_pickaxe": "rainbow_pickaxe",
-  "item.opo.rainbow_axe": "rainbow_axe",
-  "item.opo.rainbow_shovel": "rainbow_shovel",
-  "item.opo.rainbow_hoe": "rainbow_hoe"
+  "item.opo.rainbow_ingod": "rainbow ingod",
+  "item.opo.rainbow_sword": "rainbow sword",
+  "item.opo.rainboow_sword": "rainboow sword",
+  "item.opo.rainbow_pickaxe": "rainbow pickaxe",
+  "item.opo.rainbow_axe": "rainbow axe",
+  "item.opo.rainbow_shovel": "rainbow shovel",
+  "item.opo.rainbow_hoe": "rainbow hoe",
+  "item.opo.rainbow_katana": "rainbow katana",
+
+  "block.opo.pink_ore_block": "pink ore",
+  "block.opo.purple_ore_block": "purple ore",
+  "block.opo.blue_ore_block": "blue ore"
 }

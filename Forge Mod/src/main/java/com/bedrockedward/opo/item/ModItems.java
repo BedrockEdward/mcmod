@@ -21,11 +21,11 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> RAINBOOW_SWORD = ITEMS.register("rainboow_sword",
-            () -> new SwordItem(ModTiers.RAINBOW, 1000000000, 1000000000f,
+            () -> new SwordItem(ModTiers.RAINBOW, 2147483647, 2147483647f,
                     new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
-    public static final RegistryObject<Item> RAINBOW_PCKAXE = ITEMS.register("rainbow_pickaxe",
-            () -> new PickaxeItem(ModTiers.RAINBOW, 1000000000, 1000000000f,
+    public static final RegistryObject<Item> RAINBOW_PICKAXE = ITEMS.register("rainbow_pickaxe",
+            () -> new PickaxeItem(ModTiers.RAINBOW, 2147483647, 2147483647f,
                     new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 
@@ -40,6 +40,25 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAINBOW_HOE = ITEMS.register("rainbow_hoe",
             () -> new HoeItem(ModTiers.RAINBOW, 1000000000, 1000000000,
+                    new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
+    public static final RegistryObject<Item> RAINBOW_KATANA = ITEMS.register("rainbow_katana",
+            () -> new SwordItem(ModTiers.RAINBOW, 2147483647, 2147483647f,
+                    new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
+
+    //armor
+    public static final RegistryObject<Item> RAINBOW_KATANA = ITEMS.register("rainbow_katana",
+            () -> new SwordItem(ModTiers.RAINBOW, 2147483647, 2147483647f,
+                    new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item> RAINBOW_KATANA = ITEMS.register("rainbow_katana",
+            () -> new SwordItem(ModTiers.RAINBOW, 2147483647, 2147483647f,
+                    new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item> RAINBOW_KATANA = ITEMS.register("rainbow_katana",
+            () -> new SwordItem(ModTiers.RAINBOW, 2147483647, 2147483647f,
+                    new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item> RAINBOW_KATANA = ITEMS.register("rainbow_katana",
+            () -> new SwordItem(ModTiers.RAINBOW, 2147483647, 2147483647f,
                     new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 
